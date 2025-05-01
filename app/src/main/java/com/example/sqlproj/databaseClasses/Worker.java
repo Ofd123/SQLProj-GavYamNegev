@@ -14,32 +14,6 @@ public class Worker
     public static final String COMPANY_NAME = "COMPANY_NAME";
     public static final String PHONE_NUMBER = "PHONE_NUMBER";
 
-    public static class DB_helper extends SQLiteOpenHelper
-    {
-        public static final String DATABASE_NAME = "GYNbusDB.db";
-        public static final int DATABASE_VERSION = 1;
-        String strCreate,strDelete;
 
-
-
-
-
-        public DB_helper(Context context)
-        {
-            super(context, DATABASE_NAME, null, DATABASE_VERSION);
-        }
-    //--------------------------------------------------------------------------------------------------
-        @Override
-        public void onCreate(SQLiteDatabase db)
-        {
-            strCreate = "CREATE TABLE " +
-
-        }
-    //--------------------------------------------------------------------------------------------------
-        @Override
-        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
-        {
-
-        }
-    }
 }
+
