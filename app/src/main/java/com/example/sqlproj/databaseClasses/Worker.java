@@ -13,7 +13,5 @@ public class Worker
     public static final String FAMILY_NAME = "FAMILY_NAME";
     public static final String COMPANY_NAME = "COMPANY_NAME";
     public static final String PHONE_NUMBER = "PHONE_NUMBER";
-
-
 }
 

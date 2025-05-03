@@ -13,7 +13,22 @@
         android:theme="@style/Theme.SQLProj"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activitys.Credits"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.WorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.CompanyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.MealsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
