@@ -1,6 +1,7 @@
 package com.example.sqlproj.activitys;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +24,8 @@ public class Credits extends AppCompatActivity
     }
 
 
+    public void goBack(View view)
+    {
+        finish();
+    }
 }
